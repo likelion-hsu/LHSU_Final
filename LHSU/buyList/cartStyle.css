@@ -1,0 +1,61 @@
+.contentSpace {
+    width: 100vw;
+    align-items: center;
+}
+
+.myInfo {
+    font-family: "Lato";
+    font-size: 30px;
+    width: 90vw;
+    height: 250px;
+    border: solid 5px;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.profilImg {
+    width: 200px;
+    float: left;
+    margin-right: 40px;
+}
+
+.myInfoBox {
+    width: 250px;
+}
+
+.ifSub {
+    float: left;
+}
+
+.product-list{
+    padding: 0;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    margin-bottom: 100px;
+    margin-top: 80px;
+}
+
+.product{
+    width: 20%;
+    margin-left: 4%;
+    float: left;
+}
+
+.product-img{
+    width: 20vw;
+    height: auto;
+    object-fit: cover;
+}
+
+.product button {
+    border: none;
+}
+.product a {
+    text-decoration: none;
+    color:black;
+    font-size: 30px;
+    
+}

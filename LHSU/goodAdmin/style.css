@@ -1,0 +1,75 @@
+.itemAdmin_height {
+    height: 200px !important;
+}
+.content-height {
+    height: 900px;
+}
+.itemAdminContainer{
+    width: 100%;
+}
+.table {
+    margin:auto;
+    margin-bottom: 100px;
+    width: 1085px;
+    height: 570px;
+    border: solid 15px #F3D25D;
+    border-radius: 10px;
+}
+.board { width: 1070px; }
+.w70 { width: 70px;}
+.w500 { width: 500px; }
+.line { 
+    float: left;
+    text-align: center;
+    border-right: solid 15px #F3D25D;
+    border-bottom: solid 15px #F3D25D;
+}
+.list {
+	height: 70px;
+	line-height: 60px;
+} 
+input[type="checkbox"] + label{
+    display: inline-block;
+    width: 55px;
+    height: 55px;
+    border:none;
+    position: relative;
+  }
+input[type="checkbox"]:checked + label::after {
+    content:' ';
+    background-color: #2A6390;
+    font-size: 25px;
+    width: 55px;
+    height: 55px;
+    position: absolute;
+    left:0;
+    top:0;
+  }
+input[type="checkbox"]{
+    display: none;
+}  
+.page{
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+}
+.pageBtn{
+    margin-right: 50px;
+    margin-left: 50px;
+    width: 70px;
+    height: 80px;
+}
+.right {
+    transform: rotate(180deg);
+}
+.DeleteBtn {
+    width: 236px;
+    height: 97px;
+    font-size: 60px !important;
+    float: right;
+    margin-right: 5%;
+    background-color: #F3D25D;
+    border-radius: 15px;
+    border: none;
+    max-height: 25vh;
+}
